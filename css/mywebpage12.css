@@ -1,0 +1,889 @@
+* {
+  margin: 0px;
+  padding: 0px;
+
+}
+
+nav {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+  padding: 8px;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: green;
+}
+
+
+
+.Buynow {
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 1050px;
+  border-radius: 6px;
+  padding-right: 6px;
+  padding-left: 6px;
+  text-align: center;
+}
+
+.Buynow:hover {
+  background-color: rgba(47, 128, 0, 0.89);
+}
+
+.cat {
+  justify-content: space-around;
+}
+
+.dropbtn {
+
+  color: black;
+  padding: 13px;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: normal;
+  border: none;
+  cursor: pointer;
+
+}
+
+.dropbtn1 {
+
+  color: black;
+  padding: 13px;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: normal;
+  border: none;
+  cursor: pointer;
+  color: pink;
+}
+
+.dropdown:hover .dropbtn1 {
+  color: pink;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background: transparent;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: lightgreen;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: pink;
+}
+
+.container {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  margin: 0px;
+}
+
+.wed {
+  display: flex;
+  justify-content: space-between;
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  justify-content: space-between;
+  margin-right: 50px;
+
+}
+
+img {
+  width: 400px;
+  height: 400px;
+
+}
+
+.flower1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.petal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.petal_1 {
+  background-image: url('../imag/137712-pink-blossom-flower-free-transparent-image-hd.png');
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 500px;
+  float: left;
+}
+
+.petal_2 {
+  background-image: url('../imag/444px-Redoute_flowers01.jpg');
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 500px;
+  float: right;
+}
+
+
+.mySlides1 {
+   display: none;
+  margin-top: -300px;
+
+
+}
+
+
+.slideshowcontainer {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+.banner3 {
+  background-image: url('/imag/banner-adv81-570x380.jpg');
+  width: 570px;
+  height: 380px;
+  background-repeat: no-repeat;
+  transition: 1s;
+}
+
+.banner3:hover {
+  transition: 2s;
+  transform: scale(1.1);
+
+  opacity: 0.5;
+
+}
+
+.banner4 {
+  background-image: url('../imag/banner-adv82-570x380.jpg');
+  width: 570px;
+  height: 380px;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+
+}
+
+.banner5 {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-right: 75px;
+}
+
+.banner6 {
+  font-size: 40px;
+  margin-top: 4em;
+  text-align: center;
+}
+
+.banner7 {
+  font-size: 10px;
+  color: gray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+
+}
+
+.banner8 {
+  font-size: 38px;
+  margin-top: 3em;
+  font-style: bold;
+  margin-left: -80px;
+  text-align: center;
+}
+
+.banner9 {
+  font-size: 15px;
+  text-align: center;
+  margin-left: -80px;
+  padding-top: 4px;
+  color: gray;
+  text-align: center;
+}
+
+.container1 {
+  margin-left: 700px;
+  margin-top: -790px;
+}
+
+.container2 {
+  background-image: url('../imag/banner-adv83-570x790.jpg');
+  width: 570px;
+  height: 790px;
+  background-repeat: no-repeat;
+
+
+
+}
+
+.banner10 {
+  font-size: 45px;
+  text-align: center;
+  margin-right: 20px;
+  padding-top: 380px;
+}
+
+.banner11 {
+  font-size: 20px;
+  text-align: center;
+  color: gray;
+  margin-right: 25px;
+}
+
+.buton2 {
+  margin-top: 15px;
+  margin-left: 200px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+  font-size: 20px;
+
+}
+
+.buton2:hover {
+  background-color: pink;
+  cursor: pointer;
+  color: white;
+}
+
+.container7 {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 88%;
+}
+
+.container7a {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.container7b {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 560px;
+  word-spacing: 40px;
+
+}
+
+.container7-b:hover {
+  color: palevioletred;
+  cursor: pointer;
+}
+
+.container7-b1:hover {
+  color: palevioletred;
+  cursor: pointer;
+}
+
+.container7-b2:hover {
+  color: palevioletred;
+  cursor: pointer;
+}
+
+.contain1:hover {
+  color: palevioletred;
+  cursor: pointer;
+}
+
+.contain2:hover {
+  color: palevioletred;
+  cursor: pointer;
+}
+
+.contain3:hover {
+  color: palevioletred;
+  cursor: pointer;
+}
+
+
+
+.container8 {
+  background-image: url('../imag/lipstick-5-e1562144271565-300x300.png');
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  border-radius: 150px;
+  transition: 2s;
+
+
+}
+
+.container8:hover {
+  transform: scale(1.1);
+}
+
+.container11a {
+  padding-top: 22em;
+  color: black;
+
+}
+
+.container11a:hover {
+  color: palevioletred;
+  cursor: pointer;
+}
+
+.sub1 {
+  margin-left: -320px;
+  padding: 5px;
+
+
+
+}
+
+.sub2 {
+  margin-left: -310px;
+  padding: 5px;
+}
+
+.contain {
+  color: palevioletred;
+}
+
+.container9 {
+  background-image: url('../imag/mascara-2-300x300.png');
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  transition: 2s;
+
+}
+
+.container9:hover {
+  transform: scale(1.1);
+}
+
+
+.container10 {
+  background-image: url('../imag/skincare-6-300x300.png');
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  border-radius: 150px;
+  transition: 2s;
+}
+
+.container10:hover {
+  transform: scale(1.1);
+}
+
+
+.container11 {
+  background-image: url('../imag/powder-1-300x300.png');
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  transition: 2s;
+
+}
+
+.container11:hover {
+  transform: scale(1.1);
+}
+
+
+.container12 {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 90%;
+  transition: 2s;
+}
+
+
+
+.container13 {
+  background-image: url('../imag/powder-4-1-300x300.png');
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  transition: 2s;
+}
+
+.container13:hover {
+  transform: scale(1.1);
+}
+
+
+.container14 {
+  background-image: url('../imag/skincare-7-300x300.png');
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  transition: 2s;
+}
+
+.container14:hover {
+  transform: scale(1.1);
+}
+
+
+.container15 {
+  background-image: url('../imag/lipstick-1-e1562144380862-300x300.png');
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  transition: 2s;
+}
+
+.container15:hover {
+  transform: scale(1.1);
+}
+
+.container16 {
+  background-image: url('../imag/skincare-2-300x300.png');
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  transition: 2s;
+}
+
+.container16:hover {
+  transform: scale(1.1);
+}
+
+.container-17 {
+  text-align: center;
+  border: 1px solid;
+  margin-top: 150px;
+  padding: 10px;
+  margin-left: 600px;
+  font-weight: bold;
+}
+
+.container-17:hover {
+  color: palevioletred;
+}
+
+.container1-8 {
+  margin-top: 60px;
+
+}
+
+.flower2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-left: -500px;
+
+}
+
+.flower12 {
+  text-align: left;
+  margin-top: 50px;
+}
+
+.dot1 {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot1:hover {
+  background-color: palevioletred;
+}
+
+.container1-9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 200px;
+
+}
+
+.container2-0 {
+  background-image: url('../imag/lancom-blog-1-960x540.jpg');
+  width: 770px;
+  height: 430px;
+  background-size: cover;
+  margin-left: -110px;
+
+}
+
+.container2--0 {
+  margin-top: -70px;
+  margin-left: 5px;
+  color: gray;
+  text-decoration: overline;
+}
+
+.container2--0:hover {
+  color: palevioletred;
+  cursor: pointer;
+}
+
+.container2-1 {
+  background-image: url('../imag/lancom-blog-5-570x320\ \(1\).jpg');
+  width: 570px;
+  height: 320px;
+  background-size: cover;
+  margin-right: 70px;
+  margin-top: 70px;
+  transition: 2s;
+
+}
+
+.container2--1 {
+  margin-left: 590px;
+  margin-top: 60px;
+  color: gray;
+  text-decoration: overline;
+}
+
+.container2--1:hover {
+  color: palevioletred;
+}
+
+.circle0 {
+  display: flex;
+  margin-left: 740px;
+  justify-content: space-between;
+  margin-top: -700px;
+
+
+
+}
+
+
+
+
+.circle {
+  background-image: url('../imag/powder-1-270x270\ \(1\).png');
+  width: 270px;
+  height: 270px;
+  border-radius: 135px;
+  flex-direction: column;
+  background-repeat: no-repeat;
+
+
+
+}
+
+.circle1 {
+  background-image: url('../imag/mascara-1-270x270.png');
+  width: 270px;
+  height: 270px;
+  border-radius: 135px;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  margin-right: 120px;
+}
+
+.sub-11 {
+  margin-top: 300px;
+  margin-left: -290px;
+
+}
+
+.sub--11 {
+  margin-top: 300px;
+  margin-left: -300px;
+
+
+}
+
+.container11a-:hover {
+  color: palevioletred;
+  cursor: pointer;
+}
+
+.contain- {
+  color: palevioletred;
+}
+
+.circle3 {
+  background-image: url('../imag/skincare-3-270x270.png');
+  width: 270px;
+  height: 270px;
+  border-radius: 135px;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  margin-top: -1px;
+  margin-left: 750px;
+}
+
+.circle4 {
+  background-image: url('../imag/lipstick-5-e1562144271565-270x270.png');
+  width: 270px;
+  height: 270px;
+  border-radius: 135px;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  margin-top: -280px;
+  margin-left: 1060px;
+}
+
+.container2-3 {
+  display: flex;
+  margin-top: 20px;
+}
+
+.container2-4 {
+  background-image: url('../imag/lancom-blog-11-570x320.jpg');
+  width: 510px;
+  height: 320px;
+  background-size: cover;
+  margin-left: -20px;
+
+}
+
+.container2-5 {
+  background-image: url('../imag/lancom-blog-2-960x540.jpg');
+  width: 700px;
+  height: 400px;
+  background-size: cover;
+  margin-left: 40px;
+  margin-top: -20px;
+}
+
+.container21--0 {
+  color: gray;
+  text-decoration: overline;
+  margin-top: 280px;
+}
+
+.container21--0:hover {
+  color: palevioletred;
+  cursor: pointer;
+
+}
+
+.container22--0 {
+  margin-top: 330px;
+  margin-left: -180px;
+  color: gray;
+  text-decoration: overline;
+}
+
+.container22--0:hover {
+  color: palevioletred;
+  cursor: pointer;
+}
+
+.container2-6 {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.container2-7 {
+  margin-top: 70px;
+}
+
+.slideshow-container1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+  margin-right: 50px;
+
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  width: 50px;
+  margin-top: 240px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  margin-left: -70px;
+  user-select: none;
+  color: white;
+  height: 50px;
+  background-color: gray;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.next {
+  right: 60px;
+}
+.category-1{
+  text-align: center;
+  
+}
+.category-1:hover{
+  color: palevioletred;
+  cursor: pointer;
+}
+.category-2{
+  text-align: center;
+  color: gray;
+  padding: 5px;
+}
+.footer14- {
+  margin-top: 150px;
+  background-color: rgb(255,255,255);
+  width: 1400px;
+  height: 570px;
+  display: flex;
+
+
+}
+
+.footer1 {
+  margin-left: 70px;
+  margin-right: 70px;
+  color: gray;
+  margin-top: 20px;
+  font-weight: 400px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.footer1:hover{
+  color: palevioletred;
+  cursor: pointer;
+}
+
+.footer2--1 {
+  margin-left: 70px;
+  margin-right: 70px;
+  color: gray;
+  margin-top: 20px;
+  font-weight: 400px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footer2--1:hover{
+  color: palevioletred;
+  cursor: pointer;
+}
+.footer41a{
+  margin-top: 15px;
+  
+  color: gray;
+  
+}
+.footer44{
+  margin-top: 20px;
+  font-size: large;
+  padding: 5px;
+
+  
+}
+.footer44:hover{
+  color: palevioletred;
+  cursor: pointer;
+  border-color: palevioletred;
+
+}
+.footer41{
+  margin-left: 200px;
+  margin-right: 70px;
+  color: gray;
+  font-weight: 400px;
+  font-size: 14px;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+.footer4a {
+  margin-top: 20px;
+  padding: 15px;
+
+
+}
+
+.footer4c-1 {
+  margin-top:20px ;
+  margin-left: -40px;
+  padding:25px ;
+}
+footer {
+  background-color: rgb(0,0,0);
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  padding: 50px;
+}
